@@ -1,6 +1,3 @@
-import discord
-from discord import app_commands
-from discord.ext import commands, tasks
 import requests
 import json
 import logging
@@ -9,6 +6,9 @@ import random
 from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 import os
+import discord
+from discord import app_commands
+from discord.ext import commands, tasks
 
 # Load environment variables from .env file
 load_dotenv()
