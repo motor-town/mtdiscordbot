@@ -1,8 +1,11 @@
-# my-python-project/my-python-project/README.md
-
 # MTDiscordBot
 
 This project is a Discord bot that interacts with Motor-Town Dedicated Server WebAPI. It provides various commands for server management, including player statistics, banning, and kicking players.
+
+## ToDo:
+
+- add pelican/pterodactyl eggs
+- add Discord commands overview
 
 ## Features
 
@@ -48,7 +51,33 @@ This project requires the following Python packages:
 - discord.py
 - requests
 - python-dotenv
+- psutil 
+- matplotlib
+
+## Discord 
+**These Bot permissions are required**
+- Privileged Gateway Intents
+  - Presence Intent
+  - Message Content Intent
+- Bot Perms
+  - View Channels
+  - Send Messages
+  - Embed Links
+  - Use Application Commands
+
+**Full list of commands**
+```/showmtstats```
+```/removemtstats```
+```/mtkick```
+```/mtban```
+```/mtmsg```
+```/mtunban```
+```/mtshowbanned```
+```/mtmsg```
+
+Server stats window is updated every 30 seconds.
 
 ## License
-
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+The bot is based of https://github.com/ValhallaCommunityOfficial/Motor-Town-Discord-Bot. Check out their Homepage: https://www.thevalhallacommunity.com/home
