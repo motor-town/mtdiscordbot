@@ -1,0 +1,11 @@
+{
+    "server_status": "Server Status",
+    "server_online": "Server is Online",
+    "server_offline": "Server is Offline",
+    "uptime": "Uptime",
+    "players_online": "Players Online",
+    "player_names": "Player Names",
+    "no_players_online": "No players online",
+    "banned_players": "Banned Players",
+    "no_banned_players": "No players are banned."
+}

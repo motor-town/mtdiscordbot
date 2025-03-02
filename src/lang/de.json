@@ -1,0 +1,11 @@
+{
+    "server_status": "Serverstatus",
+    "server_online": "Server ist online",
+    "server_offline": "Server ist offline",
+    "uptime": "Betriebszeit",
+    "players_online": "Spieler online",
+    "player_names": "Spielernamen",
+    "no_players_online": "Keine Spieler online",
+    "banned_players": "Gesperrte Spieler",
+    "no_banned_players": "Keine Spieler sind gesperrt."
+}
