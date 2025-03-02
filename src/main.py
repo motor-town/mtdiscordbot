@@ -2,9 +2,9 @@ import logging
 import json
 import asyncio
 import random
-from datetime import datetime, timezone, timedelta
-from dotenv import load_dotenv
+from datetime import datetime, timezone
 import os
+from dotenv import load_dotenv
 import requests
 import discord
 from discord import app_commands
